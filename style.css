@@ -294,28 +294,36 @@ h4.hi{
     width: 430px;
 }
 
-.about-text{
+/* .about-text{
     width: 550px;
+} */
+.container {
+    /* width: 90%;
+    margin: 50px auto 0; */
+    /* margin-left: 10%; */
+    margin-top: 0%;
+    width: 100%;
+    max-width: 500px;
 }
 
 .row {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     /* background:rgb(105, 149, 207); */
     margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-}
-
-.row {
-    flex-direction: column;
 }
 
 .row .col {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 500px;
 }
 
 .about .row {
@@ -370,12 +378,6 @@ p.summary{
 
 /* Bars show if it's a container */
 
-.container {
-    width: 500px;
-    margin: 50px auto 0;
-    /* margin-left: 10%; */
-    margin-top: 0%;
-}
 
 li.content-bar {
     position: relative;
