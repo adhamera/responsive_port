@@ -23,6 +23,47 @@ body {
 } */
 
 
+header {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('/assets/opsnow.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-content {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: black;
+    text-align: center;
+}
+
+
+.header-content h1 {
+    /* font-size: 7vmin; */
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content h3 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(16, 63, 71);
+    font-weight: 530;
+}
+
+.ctn {
+    padding: 5px 10px;
+    background:rgb(10, 62, 121);
+    border-radius: 50px;
+    color: white;
+
+}
 
 
 .navbar {
@@ -66,7 +107,7 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: rgb(76, 117, 117);
 }
 
 .toggle-button {
@@ -186,43 +227,11 @@ body {
   animation-direction: alternate;
   } */
 
-  .me{
-    position: absolute;
-    top: 35%;
-    /* left: 8%; */
-    width: 100%;
-    /* transform: translate(-50%); */
-    /* flex-wrap: wrap;
-    display: flex; */
-    z-index: 2;
-
-
+h1.project {
+    font-size: 60px;
+    margin-top: 20px;
 }
 
-h1.name{
-    color: black;
-    font-size: 70px;
-    margin-left: 39px;
-    text-align: left;
-
-    
-}
-
-h3.tag{
-    color: rgb(16, 63, 71);
-    font-size: 30px;
-    margin-left: 50px;
-    font-weight: 400;
-    
-}
-
-h4.hi{
-    color: black;
-    letter-spacing: 2px;
-    font-size: 30px;
-    margin-left: 50px;
-    font-weight: 500;
-}
 
 nav{
     display: flex;
@@ -292,7 +301,7 @@ nav ul li a:hover{
 
 .about{
     width: 100%;
-    padding: 100px 0px;
+    padding: 10px 0px;
     background-color: white;
 
 }
@@ -516,7 +525,7 @@ li.python:after {
 }
 
 h5{
-    color: white;
+    color: rgb(24, 8, 8);
     font-size: 23px;
     margin-bottom: 15px;
 
@@ -552,10 +561,13 @@ h5{
     border-radius: 30px;
     margin-left: 20px;
     transition: transform .4s;
+    margin-top: 3%;
+
 }
 .button:hover{
 transform: scale(1.2);
 }
+
 
 span{
     color: rgb(36, 142, 204);
@@ -597,7 +609,9 @@ span{
 
 .social{
     display: flex;
-    margin-left: 25px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .social a{
@@ -623,6 +637,8 @@ footer{
  .anusha{
     border-radius: 50%;
     margin-bottom: 15%;
+    width: 400px;
+    margin-top: 30px;
 }
 
 .site-footer
@@ -648,7 +664,7 @@ footer{
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
-  letter-spacing:2px
+  letter-spacing:1px
 }
 .site-footer a
 {
@@ -697,7 +713,9 @@ footer{
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
+  justify-content: center;
+  text-align: center;
 }
 @media (max-width:991px)
 {
