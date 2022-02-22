@@ -632,6 +632,7 @@ footer{
     font-size: larger;
     text-transform: capitalize;
     text-align: center;
+    
 }
 
  .anusha{
@@ -648,6 +649,7 @@ footer{
   font-size:15px;
   line-height:24px;
   color:#737373;
+  
 }
 .site-footer hr
 {
@@ -932,9 +934,11 @@ img {
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
     width: 100%;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     height: auto;
-    background-color: #070617;
+    background-color: black
+
   }
   .footer .col {
     width: 190px;
